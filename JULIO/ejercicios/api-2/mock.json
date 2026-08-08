@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "marca": "Toyota",
+        "modelo": "Corolla"
+    },
+    {
+        "id": 2,
+        "marca": "Honda",
+        "modelo": "Civic"
+    },
+    {
+        "id": 3,
+        "marca": "Ford",
+        "modelo": "Mustang"
+    }
+]
