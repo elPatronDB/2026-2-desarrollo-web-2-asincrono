@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3500; 
+const PORT = 3500;
 
 const televisiones = [
     { id: 1, marca: "Samsung", modelo: "QLED 4K", pulgadas: 55 },
@@ -16,7 +16,7 @@ app.get('/api/televisiones', (req, res) => {
         data: televisiones
     });
 });
-        
+
 app.listen(PORT, () => {
     console.log(`Server api-1 corriendo en http://localhost:${PORT}`);
 });
