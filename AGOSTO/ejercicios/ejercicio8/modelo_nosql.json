@@ -1,0 +1,93 @@
+﻿{
+  "coleccion_clientes": [
+    {
+      "_id": { "$oid": "64f1a2b3c4d5e6f7a8b90101" },
+      "tipo_documento": "NIT",
+      "numero_documento": "9876543-2",
+      "nombre": "Carlos Alejandro",
+      "apellido": "Martínez Gómez",
+      "contacto": {
+        "correo": "carlos.martinez@email.com",
+        "telefono": "+502 5555-1234",
+        "direccion": "15 Calle 4-20 Zona 10, Ciudad de Guatemala"
+      },
+      "preferencias": {
+        "marcas_interes": ["Toyota", "Honda"],
+        "tipo_carroceria": "SUV"
+      },
+      "historial_compras_ids": [
+        { "$oid": "64f1a2b3c4d5e6f7a8b90301" }
+      ],
+      "fecha_registro": { "$date": "2026-08-10T10:30:00Z" }
+    }
+  ],
+  "coleccion_automoviles": [
+    {
+      "_id": { "$oid": "64f1a2b3c4d5e6f7a8b90201" },
+      "vin": "3N1AB7AP4KY123456",
+      "numero_motor": "MR20-897654",
+      "marca": "Nissan",
+      "modelo": "Kicks Advance",
+      "anio": 2025,
+      "color": "Gris Metálico",
+      "tipo_carroceria": "SUV",
+      "kilometraje": 0,
+      "precio_lista": 175000.00,
+      "especificaciones_tecnicas": {
+        "motor": "1.6L 4 cilindros",
+        "transmision": "Automática CVT",
+        "combustible": "Gasolina",
+        "traccion": "4x2"
+      },
+      "equipamiento": [
+        "Cámara de retroceso",
+        "Pantalla táctil 8 pulgadas",
+        "Apple CarPlay y Android Auto",
+        "Frenado autónomo de emergencia"
+      ],
+      "estado": "VENDIDO",
+      "fecha_ingreso_inventario": { "$date": "2026-07-15T08:00:00Z" }
+    }
+  ],
+  "coleccion_ventas": [
+    {
+      "_id": { "$oid": "64f1a2b3c4d5e6f7a8b90301" },
+      "numero_factura": "FAC-2026-00892",
+      "fecha_venta": { "$date": "2026-08-25T15:45:00Z" },
+      "cliente": {
+        "cliente_id": { "$oid": "64f1a2b3c4d5e6f7a8b90101" },
+        "nombre_facturacion": "Carlos Alejandro Martínez Gómez",
+        "documento": "NIT: 9876543-2",
+        "correo": "carlos.martinez@email.com",
+        "telefono": "+502 5555-1234"
+      },
+      "automovil": {
+        "automovil_id": { "$oid": "64f1a2b3c4d5e6f7a8b90201" },
+        "vin": "3N1AB7AP4KY123456",
+        "marca": "Nissan",
+        "modelo": "Kicks Advance",
+        "anio": 2025,
+        "color": "Gris Metálico",
+        "precio_base": 175000.00
+      },
+      "vendedor": {
+        "codigo": "EMP-045",
+        "nombre": "Andrea Rivera"
+      },
+      "totales": {
+        "subtotal": 156250.00,
+        "descuento": 5000.00,
+        "impuesto_iva": 18750.00,
+        "total_pagado": 170000.00,
+        "moneda": "GTQ"
+      },
+      "pago": {
+        "metodo": "Crédito Bancario",
+        "banco": "Banco Industrial",
+        "referencia_transaccion": "CRED-99482103",
+        "cuotas": 48
+      },
+      "estado": "COMPLETADA"
+    }
+  ]
+}
