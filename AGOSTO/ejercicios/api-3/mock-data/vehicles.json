@@ -1,0 +1,12 @@
+[
+  { "id": 1, "make": "Toyota", "model": "Corolla", "year": 2020, "price": 20000, "color": "White" },
+  { "id": 2, "make": "Honda", "model": "Civic", "year": 2021, "price": 22000, "color": "Black" },
+  { "id": 3, "make": "Ford", "model": "Mustang", "year": 2019, "price": 26000, "color": "Red" },
+  { "id": 4, "make": "Chevrolet", "model": "Camaro", "year": 2022, "price": 30000, "color": "Yellow" },
+  { "id": 5, "make": "Nissan", "model": "Altima", "year": 2020, "price": 21000, "color": "Silver" },
+  { "id": 6, "make": "BMW", "model": "3 Series", "year": 2023, "price": 40000, "color": "Blue" },
+  { "id": 7, "make": "Audi", "model": "A4", "year": 2021, "price": 38000, "color": "Gray" },
+  { "id": 8, "make": "Mercedes-Benz", "model": "C-Class", "year": 2022, "price": 42000, "color": "White" },
+  { "id": 9, "make": "Hyundai", "model": "Elantra", "year": 2023, "price": 20500, "color": "Red" },
+  { "id": 10, "make": "Kia", "model": "Forte", "year": 2020, "price": 19000, "color": "Black" }
+]
